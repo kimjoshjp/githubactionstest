@@ -2,6 +2,6 @@ name : learn-github-actions
 on: [push]
 jobs:
   check-bats-versoin:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "This is a test"
